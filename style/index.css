@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(92,98,99,1) 54%, rgba(17,2,117,1) 100%);
+}
+hr{
+    width: 90%;
+    margin: 15px;
+}
+h2,h4,small{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+#page{
+    width: 100%;
+    height: 100vh;
+}
+#capsulaHead{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logoReitec{
+    width: 250px;
+}
+#logoBrain{
+    width: 350px;
+    margin-bottom: 15px;
+}
+#capsulaHeadBrainLogo{
+    padding: 10rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+    margin: 5.5rem;
+}
+#xpe,#tv3000,#portaria,#padrao,#liberacoes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#portariaImagens{
+    display: flex;
+    flex-direction: column;
+}
+#portariaImagens > img{
+    height: 200px;
+    margin-bottom: 15px;
+}
+#totemImagens > img{
+    width: 300px;
+}
+#liberacoesImagens > img{
+   height : 400px;
+}
+#tvImagens > img{
+    height: 200px;
+}
+.imagens{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.textoDescritivo{
+    width: 30%;
+    height: fit-content;
+    margin-left: 25px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 32px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#padraoChamadas{
+    display: flex;
+    flex-direction: column;
+}
+#infografico{
+    width: 350px;
+}
+#casas{
+    width: 350px;
+}
+#porteiroEsqueleto{
+    width: 450px;
+}
